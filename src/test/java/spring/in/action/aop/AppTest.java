@@ -22,4 +22,9 @@ public class AppTest {
 	public void shouldNotBeNull() {
 		assertNotNull(performance);
 	}
+	
+	@Test
+	public void testPerform() {
+		performance.perform();
+	}
 }
